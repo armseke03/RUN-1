@@ -1,7 +1,7 @@
 {
-  "name": "Minrunbot",
+  "name": "Selfbotman",
   "version": "0.2.1",
-  "description": "Gu Min Hack Bot",
+  "description": "Man Run Bot",
   "main": "./library/main.js",
   "scripts": {
     "start": "npm run bot",
@@ -12,7 +12,7 @@
     "url": "https://github.com/alfathdirk/LineAlphatJS.git"
   },
   "author": {
-    "name": "MINHACKBOT",
+    "name": "SELFBOTMAN-RUN",
     "email": "admin Id socool290"
   },
   "license": "MIT",
