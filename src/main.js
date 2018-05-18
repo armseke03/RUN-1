@@ -55,7 +55,7 @@ class LINE extends Command {
         let receiver = messages.to;
         let sender = messages.from;
         
-        this.command(`exec ${payload}`,this.noxtSpamGroup.bind(this));
+        this.command(`run ${payload}`,this.noxtSpamGroup.bind(this));
     }
 
 }
