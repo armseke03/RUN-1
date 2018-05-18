@@ -33,10 +33,10 @@ class LineConnect extends LineAPI {
         let expireCH = moment("/Date("+xc+"-0700)/").toString();
         console.info("Token: "+icH.channelAccessToken);
         console.info("TokenExpire: "+expireCH+"\n");
-        console.info(`Botrun by Id guarmselfbot team\n`);
+        console.info(`Botrun by Id team agent\n`);
         console.info(`Please don't share this project\n`);
-        console.info(`=======BOT BY มือปราบ======\n`);
-        console.info(`=======ID LINE guarmselfbot======\n`);
+        console.info(`=======BOT BY หล่องาย======\n`);
+        console.info(`=======ID LINE gg880.======\n`);
         resolve();
       });
     });
