@@ -86,7 +86,7 @@ class LineAPI {
   _qrCodeLogin() {
     this.setTHttpClient();
     return new Promise((resolve, reject) => {
-    this._client.getAuthQrcode(true, 'BOT RUN BY:AGENT107',(err, result) => {
+    this._client.getAuthQrcode(true, 'BOT RUN BY:Arm',(err, result) => {
       const qrcodeUrl = `line://au/q/${result.verifier}`;
       qrcode.generate(qrcodeUrl,{small: true});
       console.info(`\n\n[SELFBOT LOGIN JS]\n[By.Agent107]\n\nคลิกลิ้งนี้: ${qrcodeUrl}`)
@@ -134,7 +134,7 @@ class LineAPI {
          reqx.password = rsaCrypto.credentials;
          reqx.keepLoggedIn = true;
          reqx.accessLocation = this.config.ip;
-         reqx.systemName = 'LineAlphatFork';
+         reqx.systemName = 'Botrun';
          reqx.e2eeVersion = 0;
          try{
            this._client.loginZ(reqx,
