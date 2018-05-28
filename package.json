@@ -1,7 +1,7 @@
 {
-  "name": "Selfbotman",
+  "name": "Armselfbot",
   "version": "0.2.1",
-  "description": "Man Run Bot",
+  "description": "Arm Run Bot",
   "main": "./library/main.js",
   "scripts": {
     "start": "npm run bot",
@@ -12,10 +12,10 @@
     "url": "https://github.com/alfathdirk/LineAlphatJS.git"
   },
   "author": {
-    "name": "SELFBOTMAN-RUN",
-    "email": "admin Id socool290"
+    "name": "Bot-RUN",
+    "email": "admin Id guarmselfbot1122"
   },
-  "license": "MIT",
+  "license": "Arm",
   "devDependencies": {
     "qrcode-terminal": "^0.11.0",
     "node-bignumber": "^1.2.1",
